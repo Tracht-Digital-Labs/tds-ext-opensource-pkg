@@ -39,7 +39,7 @@ return [
             ['in' => 'body', 'name' => 'lang', 'description' => '`de` oder `en`; bestimmt Checkout-Sprache und Rücksprungseite.'],
         ],
         'responses' => [
-            ['status' => 201, 'description' => '`{url}` — dorthin weiterleiten'],
+            ['status' => 201, 'description' => '`{url}`, dorthin weiterleiten'],
             ['status' => 422, 'description' => '`{error: invalid_amount|amount_too_low|amount_too_high, min, max}`'],
             ['status' => 429, 'description' => 'Zu viele Versuche'],
             ['status' => 503, 'description' => 'Spenden aus oder Stripe nicht eingerichtet'],
@@ -149,7 +149,7 @@ return [
             ['in' => 'query', 'name' => 'status', 'description' => '`paid` (Standard), `open`, `expired`, `failed` oder `all`.'],
             ['in' => 'query', 'name' => 'limit', 'description' => '1–500, Standard 100.'],
         ],
-        'responses' => [['status' => 200, 'description' => '`{donations, summary}` — ohne Session-ID und IP-Hash']],
+        'responses' => [['status' => 200, 'description' => '`{donations, summary}`, ohne Session-ID und IP-Hash']],
     ],
     [
         'method' => 'GET',

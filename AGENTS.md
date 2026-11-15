@@ -29,6 +29,7 @@ composer install && composer test   # phpunit (SQLite, no MariaDB needed)
 - Migrations: band `20261028`, file name maps to class, unsigned `*_id`, no adapter internals, never delete one.
 - `apiFetch`/`sendJson`, never a relative `fetch`. No CSS. Never mount a `ToastHost`.
 - Stay in the `0.1.x` line. Versions move via the release workflow only.
+- Follows the TDS quality standard (`../tds-ops/standards/quality.md`): no AI slop, clean code.
 
 ## Topic files
 
