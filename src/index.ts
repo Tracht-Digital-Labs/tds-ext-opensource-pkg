@@ -1,4 +1,4 @@
-import { defineExtension } from "@tracht-digital-solutions/tds-frontend-contract";
+import { defineExtension } from "@tracht-digital-labs/tds-frontend-contract";
 
 /**
  * Open Source — the projects TDS publishes, and donations to them.
@@ -36,7 +36,7 @@ export default defineExtension({
     {
       id: "opensource-widget",
       title: "Spenden",
-      island: "@tracht-digital-solutions/tds-ext-opensource/widgets/Widget.astro",
+      island: "@tracht-digital-labs/tds-ext-opensource/widgets/Widget.astro",
       size: "sm",
       permission: "opensource:read",
       dataEndpoint: "/opensource/summary",
@@ -47,14 +47,14 @@ export default defineExtension({
     {
       id: "opensource",
       label: "Open-Source-Seiten",
-      island: "@tracht-digital-solutions/tds-ext-opensource/islands/Settings.astro",
+      island: "@tracht-digital-labs/tds-ext-opensource/islands/Settings.astro",
       order: 150,
     },
   ],
   routes: [
     {
       pattern: "/open-source",
-      entrypoint: "@tracht-digital-solutions/tds-ext-opensource/pages/Index.astro",
+      entrypoint: "@tracht-digital-labs/tds-ext-opensource/pages/Index.astro",
       permission: "opensource:read",
     },
   ],

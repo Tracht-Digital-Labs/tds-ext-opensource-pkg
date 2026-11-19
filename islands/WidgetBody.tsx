@@ -1,5 +1,5 @@
-import { SummaryMetric } from "@tracht-digital-solutions/tds-shared/components";
-import { formatCents } from "@tracht-digital-solutions/tds-shared/format";
+import { SummaryMetric } from "@tracht-digital-labs/tds-shared/components";
+import { formatCents } from "@tracht-digital-labs/tds-shared/format";
 
 interface Summary {
   projects: number;

@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
 
-import { describeFailureFrom, sendJson } from "@tracht-digital-solutions/tds-shared/api";
-import { Alert, Spinner, toast } from "@tracht-digital-solutions/tds-shared/components";
-import { invalidate, staleClass, useCachedJson } from "@tracht-digital-solutions/tds-shared/data";
-import { formatCents, formatDateTime, parseEuros } from "@tracht-digital-solutions/tds-shared/format";
+import { describeFailureFrom, sendJson } from "@tracht-digital-labs/tds-shared/api";
+import { Alert, Spinner, toast } from "@tracht-digital-labs/tds-shared/components";
+import { invalidate, staleClass, useCachedJson } from "@tracht-digital-labs/tds-shared/data";
+import { formatCents, formatDateTime, parseEuros } from "@tracht-digital-labs/tds-shared/format";
 
 /**
  * Open Source — pick a project, edit what changes with a release, see donations.

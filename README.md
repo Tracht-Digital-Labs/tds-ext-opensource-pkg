@@ -4,7 +4,7 @@ Open-Source-Projekte von Tracht Digital Solutions: je Projekt eine kleine Websei
 Panel gepflegt, mit Spendenknopf über das zentrale Stripe-Konto.
 
 Eine TDS-Panel-Erweiterung mit zwei Hälften in einem Repository: das
-Frontend-Manifest samt Oberfläche (npm, `@tracht-digital-solutions/tds-ext-opensource`)
+Frontend-Manifest samt Oberfläche (npm, `@tracht-digital-labs/tds-ext-opensource`)
 und das Backend-Modul (Composer, `tracht-digital-solutions/tds-ext-opensource`).
 
 ## Was hier liegt und was nicht
